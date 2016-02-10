@@ -1,0 +1,76 @@
+@import url(http://fonts.googleapis.com/css?family=Oswald:400,700,300);
+
+* {
+	margin: 0;
+}
+html, body {
+	height: 100%;
+
+}
+
+body {
+	overflow-y: scroll;
+	overflow-x: hidden;
+	position: relative;
+	left: 0;	
+	font-family: sans-serif;  
+	background-color: white;
+}
+
+a {
+	color: #c3c3c3;
+	text-decoration: none;
+}
+a:hover {
+	color: #bf616a;
+}
+
+.splash-logo {
+	max-width: 100%;
+    height: auto;
+    width: auto\9; /* ie8 */
+	display: block;
+	margin: 0 auto 0 auto;
+	padding-top: 3em;
+	pointer-events: none;
+}
+
+.wrapper {
+	min-height: 100%;
+	height: auto !important; /* This line and the next line are not necessary unless you need IE6 support */
+	height: 100%;
+	margin: 0 auto -75px; /* the bottom margin is the negative value of the footer's height */
+}
+.footer, .push {
+	height: 75px; /* .push must be the same height as .footer */
+}
+.footer {
+	z-index: 99;
+	background-color: transparent;
+
+	color: #c3c3c3;
+	font-size: 0.8em;
+	font-family: 'Oswald';
+	font-weight: 300;
+	text-transform: uppercase;
+
+}
+.footer-container {
+	margin-right: auto;
+	
+	text-align: center;
+	padding-top: 2em;
+}
+
+.content {
+	padding: 2em 0 2em 0;
+	color: #c3c3c3;
+	font-size: 1.2em;
+	font-family: 'Oswald';
+	font-weight: 300;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+
+
