@@ -8,6 +8,9 @@ html, body {
 
 }
 
+html {
+	
+}
 body {
 	overflow-y: scroll;
 	overflow-x: hidden;
@@ -15,6 +18,7 @@ body {
 	left: 0;	
 	font-family: sans-serif;  
 	background-color: white;
+	background-image: url('../images/white_wall_hash.png')
 }
 
 a {
@@ -65,7 +69,7 @@ a:hover {
 .content {
 	padding: 2em 0 2em 0;
 	color: #c3c3c3;
-	font-size: 1.2em;
+	font-size: 1em;
 	font-family: 'Oswald';
 	font-weight: 300;
 	text-transform: uppercase;
