@@ -17,7 +17,7 @@ body {
 	position: relative;
 	left: 0;	
 	font-family: sans-serif;  
-	background-color: black;
+	background-color: white;
 }
 
 a {
@@ -78,5 +78,8 @@ a:hover {
 }
 
 
-
+.splash {
+	width: 100%;
+	background-color: black;
+}
 
