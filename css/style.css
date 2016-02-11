@@ -17,8 +17,7 @@ body {
 	position: relative;
 	left: 0;	
 	font-family: sans-serif;  
-	background-color: white;
-	background-image: url('../images/white_wall_hash.png')
+	background-color: black;
 }
 
 a {
