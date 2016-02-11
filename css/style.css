@@ -49,7 +49,7 @@ a:hover {
 }
 .footer {
 	z-index: 99;
-	background-color: transparent;
+	background-color: white;
 
 	color: #c3c3c3;
 	font-size: 0.8em;
