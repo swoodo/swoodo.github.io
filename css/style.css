@@ -30,7 +30,7 @@ a:hover {
 
 .splash-logo {
 	max-width: 100%;
-    height: auto;
+    	height: auto;
     
 	display: block;
 	margin: 0 auto 0 auto;
@@ -80,6 +80,6 @@ a:hover {
 
 .splash {
 	width: 100%;
-	background-color: black;
+	background-color: #1C1F26;
 }
 
