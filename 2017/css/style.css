@@ -1,0 +1,44 @@
+
+ @import url('https://fonts.googleapis.com/css?family=Fredoka+One');
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: white;
+  text-align: center;
+
+}
+
+
+
+body > .footer-container {
+  padding: 60px 15px 0;
+}
+.footer-container .footer-text {
+  margin: 20px 0;
+}
+
+.footer-text {
+  color: #d5d5d5;
+  text-transform: uppercase;
+  font-family: 'Fredoka One';
+  font-size: 0.8em;
+}
+
+.footer-text > a {
+  color: #d5d5d5;
+}
+
